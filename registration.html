@@ -3,17 +3,17 @@
 <style>
 body{
 font-family: 'Open Sans', sans-serif;
-    background : linear-gradient(45deg,lightblue,pink);
+    background-image:url("21024.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
   width:100%; ;
   margin: 0 auto 0 auto;  
   text-align:center;
   margin: 20px 0px 20px 0px;
-
 }
-
 .btn{
   background:#2ecc71;
-  width:250px;
+  width:200px;
   padding-top:5px;
   padding-bottom:5px;
   color:white;
@@ -27,8 +27,6 @@ font-family: 'Open Sans', sans-serif;
   font-weight:800;
   font-size:0.8em;
 }
-
-
 .email{
   background:#ecf0f1;
   border: #ccc 1px solid;
@@ -40,17 +38,13 @@ font-family: 'Open Sans', sans-serif;
   font-size:1em;
   border-radius:4px;
 }
-
 td {
   padding: 0.5em;
   padding-right: 1em;
 }
-
-
-
 div {
   width: 600px;
- // background : linear-gradient(45deg,lightblue,pink);
+ // background-image :url("C:\Users\hp\Desktop\background.jpg") ;
   padding: 10px;
   border: 5px solid black;
   margin-left:400px ;
@@ -90,79 +84,32 @@ document.getElementById("citySelect").selectedIndex = 0;
 .btn:hover{
   background:#2CC06B; 
 }
-
-
 </script>
 <body><div>
 <table cellspacing=0 cellpadding=5 >
 <th>
 <tr>
-<h1>Create your account</h1></tr></th><br>
+<h1><font color="0B0101">Create your account</font></h1></tr></th><br>
 
 <tr><td>
-<br>Name:</td><td><input type="text" name="username" value="enter the username" class="email"></td></tr>
-<tr><td>
-Email:</td><td><input type="text" name="email" value="enter the email"  class="email"></td></tr>
+<br><font color="0B0101">Name:</font></td><td><input type="text" name="username" placeholder="Name" class="email"></td></tr>
+<tr><td><font color="0B0101">Email:</font></td><td><input type="text" name="email" placeholder="Email"  class="email"></td></tr>
 <tr><td><br>
-Password:</td><td><input type="text" name="pass" value="password" class="email" ></td></tr>
+<font color="0B0101">Password:</font></td><td><input type="password" name="pass" placeholder="password" class="email" ></td></tr>
 <tr><td>
-Retype Password:</td><td><input type="text" name="cpass" value="Retype password" class="email"></td></tr>
+<font color="0B0101">Retype Password:</font></td><td><input type="password" name="cpass" placeholder="Retype password" class="email"></td></tr>
+
+
+<tr><td><font color="0B0101">Contact No.:</font></td><td><input type="number" name="contact" placeholder="contact number"  class="email"></td></tr>
 
 <tr><td>
-DL.NO:</td><td><input type="text" name="dlno" value="dlno" class="email" ></td></tr>
+<font color="0B0101">DL.NO:</font></td><td><input type="text" name="dlno" placeholder="dlno" class="email" ></td></tr>
 
 <tr><td>
-Date Of Birth:</td><td><input type="Date" name="dob" value="DOB"  class="email"></td></tr>
-<tr><td>Contact No.:</td><td><input type="number" name="contact" value="contact number"  class="email"></td></tr>
+<font color="0B0101">Date Of Renew:</font></td><td><input type="Date" name="dor" placeholder="DOB"  class="email"></td></tr>
 
-
-<tr><td>Country:</td><td><input type="text" name="country" value="country" class="email"></td></tr>
 <tr>
-<td>state:</td><td><select name="stateslist" class="email">
-<option value="">Select State</option>
-<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-<option value="Andhra Pradesh">Andhra Pradesh</option>
-<option value="Arunachal Pradesh">Arunachal Pradesh</option>
-<option value="Assam">Assam</option>
-<option value="Bihar">Bihar</option>
-<option value="Chandigarh">Chandigarh</option>
-<option value="Chhattisgarh">Chhattisgarh</option>
-<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
-<option value="Daman and Diu">Daman and Diu</option>
-<option value="Delhi">Delhi</option>
-<option value="Goa">Goa</option>
-<option value="Gujarat">Gujarat</option>
-<option value="Haryana">Haryana</option>
-<option value="Himachal Pradesh">Himachal Pradesh</option>
-<option value="Jammu and Kashmir">Jammu and Kashmir</option>
-<option value="Jharkhand">Jharkhand</option>
-<option value="Karnataka">Karnataka</option>
-<option value="Kerala">Kerala</option>
-<option value="Lakshadweep">Lakshadweep</option>
-<option value="Madhya Pradesh">Madhya Pradesh</option>
-<option value="Maharashtra">Maharashtra</option>
-<option value="Manipur">Manipur</option>
-<option value="Meghalaya">Meghalaya</option>
-<option value="Mizoram">Mizoram</option>
-<option value="Nagaland">Nagaland</option>
-<option value="Orissa">Orissa</option>
-<option value="Pondicherry">Pondicherry</option>
-<option value="Punjab">Punjab</option>
-<option value="Rajasthan">Rajasthan</option>
-<option value="Sikkim">Sikkim</option>
-<option value="Tamil Nadu">Tamil Nadu</option>
-<option value="Tripura">Tripura</option>
-<option value="Uttaranchal">Uttaranchal</option>
-<option value="Uttar Pradesh">Uttar Pradesh</option>
-<option value="West Bengal">West Bengal</option>
-</select>
-</td>
-</tr>
-<tr><td>
-city:</td><td><input type="text" name="city" value="city" class="email">
-</td></tr>
-
-<tr><td>
-<div class="btn">Get My License</div></td></tr>
+<td><div class="btn">Get my License</div></td>
+<td><div class="btn">submit</div></td></tr>
 </div>
 </html>
